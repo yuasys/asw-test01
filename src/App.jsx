@@ -1,7 +1,17 @@
-export default function App() {
-  return (
-    <h1 className="text-3xl font-bold text-red-400 text-center">
-      Hello world!
-    </h1>
-  )
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { Home } from "./pages/Home";
+
+function App() {
+	return (
+		<div className="App">
+			<Router>
+				<Routes>
+					<Route path="/" element={<Home />} />
+				</Routes>
+			</Router>
+		</div>
+	);
 }
+
+export default App;
