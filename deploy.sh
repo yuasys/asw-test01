@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # https://<USERNAME>.github.io にデプロイする場合
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
+git push -f git@github.com:yuasys/yuasys.github.io.git main
 
 # https://<USERNAME>.github.io/<REPO> にデプロイする場合
-git push -f git@github.com:yuasys/asw-01.git main:gh-pages
+# git push -f git@github.com:yuasys/asw-01.git main:gh-pages
 
 cd -
