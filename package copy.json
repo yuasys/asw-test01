@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build":  "cross-env PUBLIC_URL=/asw-test01 react-scripts build",
-    "deploy": "npm run build && gh-pages -d build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
