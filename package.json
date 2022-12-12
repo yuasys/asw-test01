@@ -1,10 +1,13 @@
 {
+  "homepage": "http://yuasys.github.io/asw-test01",
   "name": "asw01",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
